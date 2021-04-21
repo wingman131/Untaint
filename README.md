@@ -94,6 +94,10 @@ my $untainted_val = Untaint::untaint(qr/[xyz]{3,5}/, $tainted_val);
 
 Do not supply back-referencing parentheses in the pattern; they will be added by the subroutine.
 
+## DEPENDENCIES
+
+None.
+
 ## AUTHOR
 
 John Winger
