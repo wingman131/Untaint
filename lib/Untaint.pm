@@ -4,6 +4,8 @@ package Untaint;
 
 use strict;
 
+our $VERSION = 1.0;
+
 # Make %ENV safer
 BEGIN
 {
